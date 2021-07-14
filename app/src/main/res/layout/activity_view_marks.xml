@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewMarks"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@color/colorPrimary">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="Select Semester"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="34dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/card_background"
+        android:elevation="36dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/phy"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/segoe_ui_regular"
+                    android:text="Phy. Sem."
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButtonText"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/chem"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/segoe_ui_regular"
+                    android:text="Chem. Sem."
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButtonText"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/third"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/segoe_ui_regular"
+                    android:text="III Semester"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButtonText"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/fourth"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/segoe_ui_regular"
+                    android:text="IV Semester"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButtonText"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/fifth"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/segoe_ui_regular"
+                    android:text="V Semester"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButtonText"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/sixth"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/segoe_ui_regular"
+                    android:text="VI Semester"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButtonText"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/seventh"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/segoe_ui_regular"
+                    android:text="VII Semester"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButtonText"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/eighth"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/segoe_ui_regular"
+                    android:text="VIII Semester"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorButtonText"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

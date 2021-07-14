@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SeventhSemMarks">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/segoe_ui_regular"
+            android:text="18XX71 = "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/xx71"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:background="@drawable/edit_text_background"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/segoe_ui_regular"
+            android:text="18XX72 = "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/xx72"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:background="@drawable/edit_text_background"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/segoe_ui_regular"
+            android:text="18XX73X = "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/xx73x"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:background="@drawable/edit_text_background"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/segoe_ui_regular"
+            android:text="18XX74X = "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/xx74x"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:background="@drawable/edit_text_background"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/segoe_ui_regular"
+            android:text="18XX75X = "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/xx75x"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:background="@drawable/edit_text_background"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/segoe_ui_regular"
+            android:text="18XXL76 = "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/xxl76"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:background="@drawable/edit_text_background"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/segoe_ui_regular"
+            android:text="18XXP77 = "
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/xxp77"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:background="@drawable/edit_text_background"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:text="SGPA = "
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/sgpa"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:background="@drawable/edit_text_background"
+            />
+    </LinearLayout>
+
+</LinearLayout>

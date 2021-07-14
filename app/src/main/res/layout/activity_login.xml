@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@color/colorPrimary">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="Welcome Again"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="36dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Please log in to continue"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:textColor="@color/colorTextWhite"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:elevation="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/card_background">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="26dp"
+            android:text="LOGIN"
+
+            android:fontFamily="@font/seg_ui_semibold"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="50dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true">
+            <EditText
+                android:textColorHint="@color/colorPlaceholder"
+                android:drawableEnd="@drawable/ic_user"
+                android:id="@+id/Email_login"
+                android:drawableTint="@color/colorTextBlack"
+                android:hint="Enter your E-mail"
+                android:textSize="14dp"
+                android:textColor="@color/colorTextBlack"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/segoe_ui_regular"
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"/>
+            <EditText
+                android:textColorHint="@color/colorPlaceholder"
+                android:layout_marginTop="24dp"
+                android:id="@+id/password_login"
+                android:drawableEnd="@drawable/ic_password"
+                android:drawableTint="@color/colorTextBlack"
+                android:hint="Enter Password"
+                android:textSize="14dp"
+                android:textColor="@color/colorTextBlack"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:inputType="textPassword"
+                android:fontFamily="@font/segoe_ui_regular"
+                android:background="@drawable/edit_text_background"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginRight="48dp"/>
+            <Button
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_weight="1"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="118dp"
+                android:layout_marginRight="118dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="@color/colorButtonText"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginBottom="26dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="16dp"
+                android:text="Don't have an account? "
+                android:fontFamily="@font/segoe_ui_regular"
+                android:layout_marginLeft="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="16dp"
+                android:text="Signup"
+                android:fontFamily="@font/segoe_ui_regular"
+                android:layout_marginRight="8dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

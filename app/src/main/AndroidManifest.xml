@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cgpacalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CGPACalculator">
+        <activity android:name=".EighthSemMarks"></activity>
+        <activity android:name=".SeventhSemMarks" />
+        <activity android:name=".SixthSemMarks" />
+        <activity android:name=".FifthSemMarks" />
+        <activity android:name=".FourthSemMarks" />
+        <activity android:name=".ThirdSemMarks" />
+        <activity android:name=".ChemSemMarks" />
+        <activity android:name=".PhySemMarks" />
+        <activity android:name=".ViewMarks" />
+        <activity android:name=".CalculateCGPA" />
+        <activity android:name=".EnterEigthSemMarks" />
+        <activity android:name=".EnterSeventhSemMarks" />
+        <activity android:name=".EnterSixthSemMarks" />
+        <activity android:name=".EnterFifthSemMarks" />
+        <activity android:name=".EnterFourthSemMarks" />
+        <activity android:name=".EnterThirdSemMarks" />
+        <activity android:name=".enter_chem_cycle_marks" />
+        <activity android:name=".EnterPhyCycleMarks" />
+        <activity android:name=".select_sem" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
